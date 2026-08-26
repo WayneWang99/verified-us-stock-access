@@ -32,7 +32,7 @@
 - 需要全球市场、专业交易工具、API、期权或未来扩展：先研究 IBKR。
 - 主要买美国股票/ETF、偏好大型综合券商和国际客户服务：研究 Schwab International。
 - 重视中文体验、简单的美股国际账户和 0 佣金：研究 Firstrade。
-- 已经有 USDT/USDC，主要诉求是小额和快速进入：再与 [四家交易所路径](../README.md#四个快捷入口领取-20-手续费优惠) 对比。
+- 已经有 USDT/USDC，主要诉求是小额和快速进入：再与 [四家交易所路径](../README.md#平台入口与费用优惠) 对比。
 
 ## 券商路线仍要核对的五件事
 
@@ -47,4 +47,3 @@
 - [IBKR 教程](ibkr.md)
 - [Schwab International 教程](schwab.md)
 - [Firstrade 教程](firstrade.md)
-
