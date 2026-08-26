@@ -1,0 +1,48 @@
+name: Source Watch
+
+on:
+  schedule:
+    - cron: "30 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify sources, freshness, and local links
+        id: verify
+        continue-on-error: true
+        run: python scripts/verify_sources.py --report source-report.md
+
+      - name: Open one deduplicated review issue on failure
+        if: steps.verify.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_TITLE: "[source-watch] Automated source verification needs attention"
+        run: |
+          open_count="$(gh issue list --state open --search 'Automated source verification needs attention in:title' --json number --jq 'length')"
+          if [ "$open_count" = "0" ]; then
+            gh issue create --title "$ISSUE_TITLE" --body-file source-report.md
+          else
+            issue_number="$(gh issue list --state open --search 'Automated source verification needs attention in:title' --json number --jq '.[0].number')"
+            gh issue comment "$issue_number" --body-file source-report.md
+          fi
+
+      - name: Fail workflow after reporting
+        if: steps.verify.outcome == 'failure'
+        run: exit 1
+
