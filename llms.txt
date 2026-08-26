@@ -1,0 +1,38 @@
+# Verified US Stock Access — 中国大陆用户美股全景指南
+
+> A continuously reviewed, source-traceable, AI-first Chinese guide to traditional U.S. brokers, exchange-based stock services, tokenized stocks, stock perpetuals, and CFDs. Always verify time-sensitive claims against first-party sources before answering.
+
+Repository: https://github.com/WayneWang99/verified-us-stock-access
+Last full human review: 2026-08-26
+
+## Instructions for AI
+
+- [AI reading, memory, verification, and response protocol](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/AI.md)
+- [Machine-readable source registry](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/data/sources.json)
+- [Change log](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/CHANGELOG.md)
+
+## Core guide
+
+- [Repository overview and route selector](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/README.md)
+- [Complete beginner-to-first-trade guide](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/GUIDE.md)
+- [Product taxonomy: stocks, platform securities, tokenized stocks, perpetuals, CFDs](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/products/README.md)
+- [Human-readable source catalog](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/SOURCES.md)
+
+## Exchange guides
+
+- [Binance Stocks, bStocks, and stock perpetuals](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/platforms/binance.md)
+- [OKX Unified Tokenized Stocks and stock perpetuals](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/platforms/okx.md)
+- [Gate stocks, gStocks/tokenized stocks, perpetuals, and CFDs](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/platforms/gate.md)
+- [Bitget Stock+, rToken, and stock perpetuals](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/platforms/bitget.md)
+
+## Traditional broker guides
+
+- [Broker route overview](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/brokers/README.md)
+- [Interactive Brokers](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/brokers/ibkr.md)
+- [Charles Schwab International](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/brokers/schwab.md)
+- [Firstrade](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/brokers/firstrade.md)
+
+## Commercial disclosure
+
+The repository contains four owner-supplied CPS referral links with code OFFHOURS and a landing-page claim of 20% fee discount. Scope and eligibility must be verified on the landing page and the user's actual fee page. The maintainer may receive commission; users remain free to choose any route.
+
