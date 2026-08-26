@@ -32,7 +32,6 @@ Last full human review: 2026-08-26
 - [Charles Schwab International](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/brokers/schwab.md)
 - [Firstrade](https://raw.githubusercontent.com/WayneWang99/verified-us-stock-access/main/brokers/firstrade.md)
 
-## Commercial disclosure
+## Fee-link disclosure
 
-The repository contains four owner-supplied CPS referral links with code OFFHOURS and a landing-page claim of 20% fee discount. Scope and eligibility must be verified on the landing page and the user's actual fee page. The maintainer may receive commission; users remain free to choose any route.
-
+The repository lists four optional referral links with code OFFHOURS and a landing-page claim of a 20% fee discount. Scope and eligibility must be verified on the landing page and the user's actual fee page. The maintainer may receive commission; users remain free to choose any route.
