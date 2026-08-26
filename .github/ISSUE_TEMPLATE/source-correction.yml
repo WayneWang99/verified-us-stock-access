@@ -1,0 +1,46 @@
+name: 来源或事实纠错
+description: 报告已经变化、失效或被正文误读的一手来源
+title: "[source] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 正文位置
+      description: 文件名、标题或来源 ID
+      placeholder: platforms/binance.md / S-BIN-01
+    validations:
+      required: true
+  - type: textarea
+    id: current_claim
+    attributes:
+      label: 当前主张
+      description: 仓库现在写了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议更正
+      description: 应改成什么？请区分事实与个人判断。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 一手来源 URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: observed
+    attributes:
+      label: 你核验页面的日期
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 补充证据
+      description: 可提供页面更新时间、关键段落位置或脱敏截图。不要上传账户、证件或交易隐私。
+
